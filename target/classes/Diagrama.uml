@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>21886ca5-b362-435f-bf63-fb1f2490d84e</OriginalElement>
+  <nodes>
+    <node x="172.0" y="24.0">21886ca5-b362-435f-bf63-fb1f2490d84e.TABLE:semana3.public.forma_pagamento</node>
+    <node x="0.0" y="0.0">21886ca5-b362-435f-bf63-fb1f2490d84e.TABLE:semana3.public.cliente</node>
+    <node x="323.75" y="183.0">21886ca5-b362-435f-bf63-fb1f2490d84e.TABLE:semana3.public.produto</node>
+    <node x="45.75" y="195.0">21886ca5-b362-435f-bf63-fb1f2490d84e.TABLE:semana3.public.pedido</node>
+    <node x="199.25" y="414.0">21886ca5-b362-435f-bf63-fb1f2490d84e.TABLE:semana3.public.item_pedido</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="21886ca5-b362-435f-bf63-fb1f2490d84e.TABLE:semana3.public.item_pedido" target="21886ca5-b362-435f-bf63-fb1f2490d84e.TABLE:semana3.public.pedido" relationship="REFERENCES">
+      <point x="-57.25" y="-78.5" />
+      <point x="256.5" y="389.0" />
+      <point x="174.75" y="389.0" />
+      <point x="0.0" y="78.5" />
+    </edge>
+    <edge source="21886ca5-b362-435f-bf63-fb1f2490d84e.TABLE:semana3.public.pedido" target="21886ca5-b362-435f-bf63-fb1f2490d84e.TABLE:semana3.public.forma_pagamento" relationship="REFERENCES">
+      <point x="64.5" y="-78.5" />
+      <point x="239.25" y="158.0" />
+      <point x="273.5" y="158.0" />
+      <point x="0.0" y="42.5" />
+    </edge>
+    <edge source="21886ca5-b362-435f-bf63-fb1f2490d84e.TABLE:semana3.public.item_pedido" target="21886ca5-b362-435f-bf63-fb1f2490d84e.TABLE:semana3.public.produto" relationship="REFERENCES">
+      <point x="57.25" y="-78.5" />
+      <point x="371.0" y="389.0" />
+      <point x="452.75" y="389.0" />
+      <point x="0.0" y="90.5" />
+    </edge>
+    <edge source="21886ca5-b362-435f-bf63-fb1f2490d84e.TABLE:semana3.public.pedido" target="21886ca5-b362-435f-bf63-fb1f2490d84e.TABLE:semana3.public.cliente" relationship="REFERENCES">
+      <point x="-64.5" y="-78.5" />
+      <point x="110.25" y="158.0" />
+      <point x="76.0" y="158.0" />
+      <point x="0.0" y="66.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.8544839255499154" showDependencies="false" x="291.0" y="285.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Columns</Category>
+    <Category>Comments</Category>
+    <Category>Key columns</Category>
+    <Category>Virtual foreign keys</Category>
+  </Categories>
+</Diagram>
+

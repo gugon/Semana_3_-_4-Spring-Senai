@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>21886ca5-b362-435f-bf63-fb1f2490d84e.DATABASE:semana3</OriginalElement>
+  <nodes>
+    <node x="-61.05954951646052" y="422.9021032437592">21886ca5-b362-435f-bf63-fb1f2490d84e.TABLE:semana3.public.forma_pagamento</node>
+    <node x="518.7304438238394" y="-120.3973803784818">21886ca5-b362-435f-bf63-fb1f2490d84e.TABLE:semana3.public.cliente</node>
+    <node x="745.289300597616" y="8.336626092136328">21886ca5-b362-435f-bf63-fb1f2490d84e.TABLE:semana3.public.produto</node>
+    <node x="122.29020020096232" y="200.75169148855167">21886ca5-b362-435f-bf63-fb1f2490d84e.TABLE:semana3.public.pedido</node>
+    <node x="503.0637233329626" y="471.37602541395137">21886ca5-b362-435f-bf63-fb1f2490d84e.TABLE:semana3.public.item_pedido</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="21886ca5-b362-435f-bf63-fb1f2490d84e.TABLE:semana3.public.item_pedido" target="21886ca5-b362-435f-bf63-fb1f2490d84e.TABLE:semana3.public.pedido" relationship="REFERENCES">
+      <point x="2.806994818652811" y="-69.60751295336775" />
+      <point x="620.3707181516154" y="143.70394369708748" />
+      <point x="251.29020020096232" y="143.70394369708748" />
+      <point x="0.0" y="78.5" />
+    </edge>
+    <edge source="21886ca5-b362-435f-bf63-fb1f2490d84e.TABLE:semana3.public.pedido" target="21886ca5-b362-435f-bf63-fb1f2490d84e.TABLE:semana3.public.forma_pagamento" relationship="REFERENCES">
+      <point x="-64.5" y="-78.5" />
+      <point x="40.44045048353948" y="200.75169148855167" />
+      <point x="0.0" y="42.5" />
+    </edge>
+    <edge source="21886ca5-b362-435f-bf63-fb1f2490d84e.TABLE:semana3.public.item_pedido" target="21886ca5-b362-435f-bf63-fb1f2490d84e.TABLE:semana3.public.produto" relationship="REFERENCES">
+      <point x="-57.25" y="-78.5" />
+      <point x="560.3137233329626" y="216.43062763491122" />
+      <point x="874.289300597616" y="216.43062763491122" />
+      <point x="0.0" y="90.5" />
+    </edge>
+    <edge source="21886ca5-b362-435f-bf63-fb1f2490d84e.TABLE:semana3.public.pedido" target="21886ca5-b362-435f-bf63-fb1f2490d84e.TABLE:semana3.public.cliente" relationship="REFERENCES">
+      <point x="0.0" y="0.0" />
+      <point x="251.29020020096232" y="-6.426885318456641" />
+      <point x="594.7304438238394" y="-6.426885318456641" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.6083497053045186" showDependencies="false" x="554.0" y="304.0" />
+  <SelectedNodes>
+    <node>21886ca5-b362-435f-bf63-fb1f2490d84e.TABLE:semana3.public.produto</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Columns</Category>
+    <Category>Comments</Category>
+    <Category>Key columns</Category>
+    <Category>Virtual foreign keys</Category>
+  </Categories>
+</Diagram>
+
